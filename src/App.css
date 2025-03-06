@@ -1,0 +1,36 @@
+/* Ensure the content does not overlap the sidebar */
+.content {
+  margin-left: 250px; /* Match sidebar width */
+  padding: 20px;
+}
+
+/* Style table container for responsiveness */
+.table-container {
+  overflow-x: auto; /* Enable horizontal scroll */
+  max-width: 100%;
+}
+
+/* Improve table appearance */
+.table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+.table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Make sure buttons are not too large */
+.btn {
+  padding: 5px 10px;
+  font-size: 14px;
+}
